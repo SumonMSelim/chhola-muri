@@ -40,9 +40,19 @@ Chhola-Muri is a URL shortening service that converts long URLs into shorter, mo
 Our architecture follows modern distributed systems design principles to meet the non-functional requirements:
 
 - Load balancers for traffic distribution
+- API Gateway for request processing and routing
 - Caching layer for frequently accessed URLs
 - Distributed database for storage
 - Metrics collection and monitoring
+
+### API Gateway
+
+The API Gateway serves as the entry point for all client requests and provides several critical functions:
+
+#### Request Separation
+- **Traffic Segregation**: Separates read (URL redirection) traffic from write (URL creation/modification) traffic
+- **Independent Scaling**: Allows different types of requests to be scaled independently based on load patterns
+- **Load Distribution**: Routes requests to appropriate service instances based on request type and load
 
 ## Database Design
 
