@@ -40,8 +40,7 @@ This repository serves as a centralized hub for our daily learning and explorati
 Each major topic has its own dedicated directory with relevant implementations, notes, and resources:
 
 - `/dsa` - Data structures and algorithms implementations and problems
-- `/system_design` - System design case studies and architecture diagrams
-- `/url_shortner` - Complete URL shortener design and implementation
+- `/system_design` - System design case studies and architecture diagrams (includes URL shortener project)
 - `/linux` - Linux scripts, commands, and references
 - `/process` - Documentation on software development processes
 
