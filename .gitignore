@@ -1,0 +1,80 @@
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Build and dependency directories
+node_modules/
+dist/
+build/
+target/
+out/
+bin/
+obj/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# Java specific
+*.class
+*.jar
+*.war
+
+# JavaScript/TypeScript specific
+.npm
+.eslintcache
+.yarn-integrity
+.cache
+
+# Ruby specific
+*.gem
+.bundle/
+
+# C/C++ specific
+*.o
+*.a
+*.so
+*.exe
+*.out
