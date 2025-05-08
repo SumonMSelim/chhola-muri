@@ -101,7 +101,6 @@ Despite Snowflake's uniqueness guarantees, we implement an additional collision 
 - We utilize Redis's native Bloom filter data structure (RedisBloom module)
 - All service nodes share a centralized Redis Bloom filter for consistent collision detection
 - Before confirming a new short URL, we check the Redis Bloom filter
-- If the filter indicates a possible collision, we perform a database lookup
 - False positives from the Bloom filter only result in unnecessary lookups, not collisions
 - The Redis Bloom filter is tuned for a false positive rate of 0.01% with 1 billion items
 
