@@ -35,12 +35,13 @@ Chhola-Muri is a URL shortening service that converts long URLs into shorter, mo
 
 ## System Architecture
 
+[View our complete system architecture diagram](https://excalidraw.com/#room=a1b2bd4d684df3a5c8f2,GQSe2tHBOz5WF1Wh_gnj6g)
+
 Our architecture follows modern distributed systems design principles to meet the non-functional requirements:
 
 - Load balancers for traffic distribution
 - Caching layer for frequently accessed URLs
 - Distributed database for storage
-- CDN integration for global performance
 - Metrics collection and monitoring
 
 ## Database Design
